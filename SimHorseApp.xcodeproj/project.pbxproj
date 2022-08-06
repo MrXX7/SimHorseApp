@@ -12,6 +12,8 @@
 		ADF216A3289F0BF800A60B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF216A2289F0BF800A60B9A /* Assets.xcassets */; };
 		ADF216A6289F0BF800A60B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF216A5289F0BF800A60B9A /* Preview Assets.xcassets */; };
 		ADF216AD289F0C0800A60B9A /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216AC289F0C0800A60B9A /* Horse.swift */; };
+		ADF216AF289F116800A60B9A /* HorseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216AE289F116800A60B9A /* HorseRow.swift */; };
+		ADF216B1289F17D600A60B9A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216B0289F17D600A60B9A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		ADF216A2289F0BF800A60B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF216A5289F0BF800A60B9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF216AC289F0C0800A60B9A /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
+		ADF216AE289F116800A60B9A /* HorseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseRow.swift; sourceTree = "<group>"; };
+		ADF216B0289F17D600A60B9A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				ADF2169E289F0BF700A60B9A /* SimHorseAppApp.swift */,
 				ADF216AC289F0C0800A60B9A /* Horse.swift */,
+				ADF216AE289F116800A60B9A /* HorseRow.swift */,
+				ADF216B0289F17D600A60B9A /* DetailView.swift */,
 				ADF216A0289F0BF700A60B9A /* ContentView.swift */,
 				ADF216A2289F0BF800A60B9A /* Assets.xcassets */,
 				ADF216A4289F0BF800A60B9A /* Preview Content */,
@@ -142,6 +148,8 @@
 			files = (
 				ADF216AD289F0C0800A60B9A /* Horse.swift in Sources */,
 				ADF216A1289F0BF700A60B9A /* ContentView.swift in Sources */,
+				ADF216AF289F116800A60B9A /* HorseRow.swift in Sources */,
+				ADF216B1289F17D600A60B9A /* DetailView.swift in Sources */,
 				ADF2169F289F0BF700A60B9A /* SimHorseAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
