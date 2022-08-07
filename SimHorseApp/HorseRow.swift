@@ -12,8 +12,7 @@ struct HorseRow: View {
     var body: some View {
         HStack {
            Text("🏇🏼")
-            Text(horse.name).font(.title).fontWeight(.medium)
-            Text(horse.bestWorkout).font(.title).fontWeight(.light)
+            Text(horse.name).fontWeight(.medium)
         }
     }
 }

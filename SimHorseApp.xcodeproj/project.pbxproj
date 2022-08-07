@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADEE05E5289F85D9005AACB5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE05E4289F85D9005AACB5 /* HomeView.swift */; };
+		ADEE05E7289F8C44005AACB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE05E6289F8C44005AACB5 /* ContentView.swift */; };
 		ADF2169F289F0BF700A60B9A /* SimHorseAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF2169E289F0BF700A60B9A /* SimHorseAppApp.swift */; };
-		ADF216A1289F0BF700A60B9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216A0289F0BF700A60B9A /* ContentView.swift */; };
+		ADF216A1289F0BF700A60B9A /* HorseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216A0289F0BF700A60B9A /* HorseType.swift */; };
 		ADF216A3289F0BF800A60B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF216A2289F0BF800A60B9A /* Assets.xcassets */; };
 		ADF216A6289F0BF800A60B9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF216A5289F0BF800A60B9A /* Preview Assets.xcassets */; };
 		ADF216AD289F0C0800A60B9A /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF216AC289F0C0800A60B9A /* Horse.swift */; };
@@ -17,9 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADEE05E4289F85D9005AACB5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADEE05E6289F8C44005AACB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF2169B289F0BF700A60B9A /* SimHorseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimHorseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF2169E289F0BF700A60B9A /* SimHorseAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimHorseAppApp.swift; sourceTree = "<group>"; };
-		ADF216A0289F0BF700A60B9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADF216A0289F0BF700A60B9A /* HorseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseType.swift; sourceTree = "<group>"; };
 		ADF216A2289F0BF800A60B9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF216A5289F0BF800A60B9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF216AC289F0C0800A60B9A /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
@@ -38,6 +42,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADEE05E3289F85CC005AACB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADEE05E4289F85D9005AACB5 /* HomeView.swift */,
+				ADF216A0289F0BF700A60B9A /* HorseType.swift */,
+				ADF216B0289F17D600A60B9A /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADEE05EA289F90F1005AACB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADF216AC289F0C0800A60B9A /* Horse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ADF21692289F0BF700A60B9A = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				ADF2169E289F0BF700A60B9A /* SimHorseAppApp.swift */,
-				ADF216AC289F0C0800A60B9A /* Horse.swift */,
+				ADEE05E6289F8C44005AACB5 /* ContentView.swift */,
+				ADEE05E3289F85CC005AACB5 /* Views */,
+				ADEE05EA289F90F1005AACB5 /* Model */,
 				ADF216AE289F116800A60B9A /* HorseRow.swift */,
-				ADF216B0289F17D600A60B9A /* DetailView.swift */,
-				ADF216A0289F0BF700A60B9A /* ContentView.swift */,
 				ADF216A2289F0BF800A60B9A /* Assets.xcassets */,
 				ADF216A4289F0BF800A60B9A /* Preview Content */,
 			);
@@ -147,7 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF216AD289F0C0800A60B9A /* Horse.swift in Sources */,
-				ADF216A1289F0BF700A60B9A /* ContentView.swift in Sources */,
+				ADF216A1289F0BF700A60B9A /* HorseType.swift in Sources */,
+				ADEE05E7289F8C44005AACB5 /* ContentView.swift in Sources */,
+				ADEE05E5289F85D9005AACB5 /* HomeView.swift in Sources */,
 				ADF216AF289F116800A60B9A /* HorseRow.swift in Sources */,
 				ADF216B1289F17D600A60B9A /* DetailView.swift in Sources */,
 				ADF2169F289F0BF700A60B9A /* SimHorseAppApp.swift in Sources */,
