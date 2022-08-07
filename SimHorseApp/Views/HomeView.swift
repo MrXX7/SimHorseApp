@@ -11,13 +11,10 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Turf Sprinter", destination: TurfSprinter())
-                NavigationLink("Dirt Sprinter", destination: DirtSprinter())
-                NavigationLink("AW Sprinter", destination: AWSprinter())
-                NavigationLink("Turf Miler", destination: TurfMiler())
-
+                NavigationLink("Turf Sprinter", destination: HorseTypeView())
             }
             .navigationTitle("Horse-Type")
+            .listStyle(.inset)
         }
     }
 }

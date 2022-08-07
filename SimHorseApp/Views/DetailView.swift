@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailView: View {
     let horse: Horse
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack {
             RoundedRectangle(cornerRadius: 10).foregroundColor(.gray).opacity(0.08).edgesIgnoringSafeArea(.all).frame(width: 280, height: 110)
                 .overlay(
             VStack {
@@ -32,6 +32,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(horse: turfSprinters[0])
+        DetailView(horse: allHorses[0])
     }
 }
