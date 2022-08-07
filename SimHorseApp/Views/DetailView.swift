@@ -22,9 +22,9 @@ struct DetailView: View {
                 
                 HStack {
                     Text(horse.sire).fontWeight(.light)
+                    Text("-")
                     Text(horse.damSire).fontWeight(.light)
                 }
-                Text(horse.bestWorkout).foregroundColor(.red).fontWeight(.bold)
         })
         }
     }

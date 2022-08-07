@@ -10,7 +10,7 @@ import SwiftUI
 struct HorseTypeView: View {
     var body: some View {
         NavigationView {
-                    List(allHorses) { horse in
+            List(allHorses) { horse in
                         NavigationLink(destination: DetailView(horse: horse)) {
                             HorseRow(horse: horse)
                             }

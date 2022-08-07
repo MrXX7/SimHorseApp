@@ -13,6 +13,7 @@ struct HorseRow: View {
         HStack {
            Text("🏇🏼")
             Text(horse.name).fontWeight(.medium)
+            Text(horse.bestWorkout).foregroundColor(.red).fontWeight(.bold)
         }
     }
 }
